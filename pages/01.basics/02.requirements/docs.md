@@ -27,7 +27,7 @@ Grav is built with plain text files for your content. There is no database neede
 
 Grav is so simple and versatile that you don't even need a web server to run it. You can run it directly off the built-in PHP webserver, as long as you're running [version=15]**PHP 5.6.3**[/version][version=16]**PHP 7.1.3**[/version][version=17]**PHP 7.3.6**[/version] or later.
 
-Testing with the built-in webservers is a useful way to check a Grav install and perform some brief development, but it is **not** recommended for a live site or even for advanced development tasks. We've outlined how in our [Installation guide](../installation#running-grav-with-the-built-in-php-webserver-using-routerphp).
+Testing with the built-in webserver is a useful way to check a Grav install and perform some brief development, but it is **not** recommended for a live site or even for advanced development tasks. We've outlined how in our [Installation guide](../installation#running-grav-with-the-built-in-php-webserver-using-routerphp).
 
 Even though technically you do not need a standalone web server, it is better to run one, even for local development. There are many great options available:
 
@@ -106,7 +106,7 @@ For Grav to function correctly, your web server needs to have the appropriate **
 
 By default, Grav will install with `644` and `755` permissions for files and folders, respectively. Most hosting providers have configurations that ensure that a web server running PHP will allow you to create and modify files within your user account. This means that Grav runs **out-of-the-box** on the vast majority of hosting providers.
 
-However, if you are running on a dedicated server or even your local environment, you may need to adjust permissions to ensure your **user** and your **web server** can modify files as needed. There are a couple of approaches you can take.
+However, if you are running on a dedicated server or even your local environment, you may need to adjust permissions to ensure your **user** and your **web server** can modify files as needed. There are a couple of approaches you can take:
 
 1. In a **local development environment**, you can usually configure your web server to run under your user profile. This way the web server will always allow you to create and modify files.
 
@@ -143,7 +143,7 @@ If you need to invoke superuser permissions, you would run `find … | sudo xarg
 
 Grav is developed using [PhpStorm](https://www.jetbrains.com/phpstorm/), which makes it the best IDE for Grav. However, it does not come for free.
 
-PhpStorm is best suited for PHP developers, including people who write complicated Grav plugins. It offers automated code compilation for Grav (you just need to add Grav and any plugin you use into includes), and many other tools to aid with the code development. It has also good support for formatting twig, yaml, html, js, scss and tailwind.
+PhpStorm is best suited for PHP developers, including people who write complicated Grav plugins. It offers automated code compilation for Grav (you just need to add Grav and any plugin you use into includes), and many other tools to aid with the code development. It also has good support for formatting Twig, YAML, HTML, JavaScript, SCSS and Tailwind.
 
 ### Text Editors
 
@@ -151,10 +151,10 @@ Although you can get away with Notepad, Textedit, Vi, or whatever default text e
 
 1. [Visual Studio Code](https://code.visualstudio.com/) - Similar to Atom, it's built using Electron, Node, as well as HTML/CSS.  It's quite lightweight and has many plugins available, including very good support for PHP and JavaScript.  This is the current recommended editor for developing for Grav.
 2. [Atom](http://atom.io) - MacOS/Windows/Linux - A new editor developed by Github. It's free and open source. It is similar to Sublime, but does not have the sheer depth of plugins available yet.
-3. [SublimeText](http://www.sublimetext.com/) - MacOS/Windows/Linux - A commercial developer's editor, but well worth the price. Very powerful especially combined with plugins such as [Markdown Extended](https://sublime.wbond.net/packages/Markdown%20Extended), [Pretty YAML](https://sublime.wbond.net/packages/Pretty%20YAML), and [PHP-Twig](https://sublime.wbond.net/packages/PHP-Twig).
+3. [SublimeText](http://www.sublimetext.com/) - MacOS/Windows/Linux - A commercial developer's editor, but well worth the price. Very powerful, especially combined with plugins such as [Markdown Extended](https://sublime.wbond.net/packages/Markdown%20Extended), [Pretty YAML](https://sublime.wbond.net/packages/Pretty%20YAML), and [PHP-Twig](https://sublime.wbond.net/packages/PHP-Twig).
 4. [Notepad++](http://notepad-plus-plus.org/) - Windows - A free and very popular developer's editor for Windows.
 5. [Bluefish](http://bluefish.openoffice.nl/index.html) - MacOS/Windows/Linux - A free, open source text editor geared towards programmers and web developers.
-6. [Kate](https://kate-editor.org/about-kate/) - MacOS/Windows/Linux - A light yet powerfull and versatile opensource text editor and programming tool, supporting highlighting for over 300 languages (including Markdown).
+6. [Kate](https://kate-editor.org/about-kate/) - MacOS/Windows/Linux - A light yet powerful and versatile open source text editor and programming tool, supporting highlighting for over 300 languages (including Markdown).
 
 ### Markdown Editors
 
@@ -162,7 +162,7 @@ Another option if you primarily work with just creating content, is to use a ded
 
 1. [MacDown](http://macdown.uranusjr.com/) - MacOS - Free, a simple, lightweight open source Markdown editor.
 2. [LightPaper](https://getlightpaper.com/) - MacOS - $17.99, clean, powerful. Our markdown editor of choice on the Mac. **Get 25% OFF with Discount Code: GET_GRAV_25**
-3. [MarkDrop](http://culturezoo.com/markdrop/) - MacOS - $5, but super clean and Droplr support built-in.
+3. [MarkDrop](http://culturezoo.com/markdrop/) - MacOS - $5, but super clean with built-in Droplr support.
 4. [MarkdownPad](http://markdownpad.com/) - Windows - Free and Pro versions. Even has YAML front-matter support. An excellent solution for Windows users.
 5. [Mark Text](https://marktext.app/) - Free, open source Markdown editor for Windows / Linux / MacOS.
 
